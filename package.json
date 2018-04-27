@@ -1,0 +1,57 @@
+{
+  "name": "yx-node-scss-gulp-starter",
+  "version": "0.0.1",
+  "description": "A starter project for HTML/CSS template projects, using Gulp and Serve",
+  "homepage": "https://github.com/yuigoto/yx-node-scss-gulp-starter#readme",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp start --env development",
+    "start:production": "gulp start --env production",
+    "build": "gulp build --env production"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "template"
+  ],
+  "author": "Fabio Y. Goto <lab@yuiti.com.br>",
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuigoto/yx-node-scss-gulp-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yuigoto/yx-node-scss-gulp-starter/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 8.9.3"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-flatten": "^0.4.0",
+    "gulp-if": "^2.0.2",
+    "gulp-jshint": "^2.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1",
+    "gulp-shell": "^0.6.5",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1",
+    "minimist": "^1.2.0",
+    "serve": "^6.5.6"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free-webfonts": "^1.0.6",
+    "bootstrap": "^4.1.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  }
+}

@@ -1,0 +1,30 @@
+/**
+ * PROJECT_NAME : SCSS/Variables
+ * ----------------------------------------------------------------------
+ * Main SCSS file for the project.
+ * 
+ * @author    AuthorName <author@projectname>
+ * @since     0.0.1
+ */
+
+// Variables, functions, mixins
+// ----------------------------------------------------------------------
+@import "core/variables";
+
+// Libraries (currently, only Bootstrap and FontAwesome)
+// ----------------------------------------------------------------------
+@import "bootstrap/scss/bootstrap";
+@import "@fortawesome/fontawesome-free-webfonts/scss/fontawesome";
+@import "@fortawesome/fontawesome-free-webfonts/scss/fa-brands";
+@import "@fortawesome/fontawesome-free-webfonts/scss/fa-regular";
+@import "@fortawesome/fontawesome-free-webfonts/scss/fa-solid";
+
+// @font-face
+// ----------------------------------------------------------------------
+
+// Core modules
+// ----------------------------------------------------------------------
+@import "core/override";
+
+// Modules
+// ----------------------------------------------------------------------
